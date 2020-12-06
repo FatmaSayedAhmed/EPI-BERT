@@ -14,7 +14,15 @@ Then you need to download models and datasets from the address:
  
 Then you should uzip these zips and put them on the root of the project.
 
- # Pre-training
+# Requirments 
+python                    3.7.6
+tensorflow                1.15.0
+tensorflow-gpu            2.1.0
+six                       1.13.0
+numpy                     1.17.4
+scikit-learn              0.22
+
+# Pre-training
  
  You should create data for pre-train by the command
  >sh create_data.sh
