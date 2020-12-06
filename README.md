@@ -7,10 +7,10 @@ We train the model on 6 different cell lines datasets and evaluate its performan
 We merge all the datasets and train a model.
 # How to Start
 You should first clone the project by command
->git clone https://github.com/JianyuanLin/Bert-Protein
+>git clone https://github.com/FatmaSayedAhmed/EPI-BERT.git
 
 Then you need to download models and datasets from the address:
->https://drive.google.com/open?id=1VSi-bdPpT0Z1ytmhVxbHGGjZDtQNLjm6
+>https://drive.google.com/drive/folders/10NfYgYYrVqXyQHhJnCzKl_vCb3UXqQal?usp=sharing
  
 Then you should uzip these zips and put them on the root of the project.
 
