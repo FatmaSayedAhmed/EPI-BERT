@@ -49,11 +49,3 @@ After ensuring the content, then you can fine-tune your model by one of these co
 >sh run_fine_tune.sh, 
 sh run_fine_tune_All.sh, 
 sh run_fine_tune_eval_only.sh
-
- 
- # Predict
-You can predict your proteins data by command
->python ljy_predict_AMP.py f1 f2  
-
-
-f1 is the fasta format file contains your proteins data and f2 is the output file.
