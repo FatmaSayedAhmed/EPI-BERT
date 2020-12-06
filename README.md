@@ -66,3 +66,11 @@ After ensuring the content, then you can fine-tune your model by one of these co
 > sh run_fine_tune_All.sh
  
 > sh run_fine_tune_eval_only.sh
+
+# Predict
+You can predict your enhancer-promoter pairs data by command
+> python predict_EPI.py f1 f2 f3  
+
+
+f1 and f2 are the fasta format files contain your enhancer and promoter sequneces pairs respectively, and f3 is the output file.
+
