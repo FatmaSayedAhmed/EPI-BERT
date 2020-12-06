@@ -1,0 +1,8 @@
+a
+g
+c
+t
+[CLS]
+[SEP]
+[UNK]
+[MASK]
