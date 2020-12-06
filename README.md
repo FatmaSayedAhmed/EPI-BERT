@@ -44,9 +44,9 @@ After ensuring the content, then you can pre-trian your model by the command:
 
  # Fine-Tuning & Evaluation & Save Model
  First you should prepare your data that will be used for fine-tuning by runing all of the following commands in order
-> python create_tsv.py ,
+> python create_tsv.py 
   
-> python MergSorted_SplitUnsorted_EP_Pairs.py ,
+> python MergSorted_SplitUnsorted_EP_Pairs.py
   
 > python tsv2record_v2.py
  
@@ -61,8 +61,8 @@ train_dict and test_dict record the numbers of samples in training sets and test
 init_chechpoint is the model which is used to train.
 
 After ensuring the content, then you can fine-tune your model by one of these commands:
-> sh run_fine_tune.sh, 
+> sh run_fine_tune.sh
  
-> sh run_fine_tune_All.sh, 
+> sh run_fine_tune_All.sh
  
 > sh run_fine_tune_eval_only.sh
