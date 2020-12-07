@@ -15,6 +15,8 @@ Then you need to download models and datasets from the address:
 Then you should uzip these zips and put them on the root of the project.
 
 # Requirments 
+We recommend you to build a python virtual environment with Anaconda. Also, please make sure you have at least one NVIDIA GPU with Linux x86_64 Driver Version = 430.26 (compatible with CUDA 10.2), then install the following packages in the virtual envirnoment
+
 python -->                    3.7.6
 
 tensorflow -->                1.15.0
